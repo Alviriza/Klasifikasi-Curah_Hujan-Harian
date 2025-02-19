@@ -5,7 +5,8 @@
 
 ## 📌 Deskripsi Proyek
 
-Proyek ini bertujuan untuk mengklasifikasikan curah hujan harian berdasarkan berbagai parameter cuaca menggunakan metode **Random Forest**. Dataset yang digunakan berasal dari **BMKG Bima (2019-2023)** dan telah melalui tahap preprocessing, eksplorasi data, serta berbagai skema pemodelan untuk meningkatkan akurasi klasifikasi.
+Proyek ini bertujuan untuk mengklasifikasikan curah hujan harian berdasarkan berbagai parameter cuaca menggunakan metode **Random Forest**. Dataset yang digunakan merupakan data cuaca harian hasil pengamatan **Stasiun Meteorologi Kelas III
+Sultan Muhammad Salahuddin - Bima** periode Januari 2019 - Januari 2025 dan telah melalui tahap preprocessing, eksplorasi data, serta berbagai skema pemodelan untuk meningkatkan akurasi klasifikasi.
 
 ## 📊 Dataset
 
@@ -13,7 +14,7 @@ Dataset berisi **2.223 sampel** dengan **10 fitur cuaca**, termasuk temperatur, 
 
 ## 🔍 Metodologi
 
-1. **Preprocessing Data**: Penanganan *missing values*, normalisasi, dan transformasi fitur.
+1. **Preprocessing Data**: Penanganan *missing values*, dan *outlier*.
 2. **Eksplorasi Data**: Analisis statistik, visualisasi distribusi data, dan korelasi antar fitur.
 3. **Klasifikasi Menggunakan Random Forest**:
    - **Skema 1:** Klasifikasi langsung tanpa resampling.
