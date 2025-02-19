@@ -36,11 +36,8 @@ Dari hasil penelitian, penggunaan **SMOTE** dan **seleksi fitur** secara signifi
 ```
 📂 Klasifikasi-Curah-Hujan-RF
 │── 📄 README.md  # Dokumentasi proyek
-│── 📄 dataset.csv  # Dataset yang digunakan
-│── 📄 preprocessing.ipynb  # Notebook untuk preprocessing data
-│── 📄 model_training.ipynb  # Notebook untuk pelatihan model
-│── 📄 evaluation.ipynb  # Notebook untuk evaluasi model
-│── 📄 utils.py  # Fungsi pendukung
+│── 📄 data-cuaca-harian.xlsx  # Dataset yang digunakan
+│── 📄 Klasifikasi Curah Hujan Harian Random Forest.ipynb  
 ```
 
 ## 🔧 Cara Menjalankan Proyek
